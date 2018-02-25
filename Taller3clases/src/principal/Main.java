@@ -1,10 +1,7 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package principal;
-
+import Clase1.Clase1;
+import Clase2.Clase2;
+import Clase3.Clase3;
 /**
  *
  * @author daiyd
