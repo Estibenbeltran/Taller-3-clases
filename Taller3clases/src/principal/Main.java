@@ -3,15 +3,13 @@ import Clase1.Clase1;
 import Clase2.Clase2;
 import Clase3.Clase3;
 /**
- *
+ *@version 1.0
  * @author Dairo estiben Beltran Martinez
+ * 
  */
 public class Main {
-
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
+        //instanciado de los objetos
         Clase1 a1 = new Clase1();
         Clase1 a2 = new Clase1();
         Clase1 a3 = new Clase1();
@@ -21,6 +19,7 @@ public class Main {
         Clase3 c1 = new Clase3();
         Clase3 c2 = new Clase3();
         Clase3 c3 = new Clase3();
+        //impresion de los datos
         //int de las clases
         System.out.println("Valor de la clase 1 objeto 1 e int "+a1.a1);
         System.out.println("Valor de la clase 1 objeto 2 e int "+a2.a1);
@@ -181,6 +180,66 @@ public class Main {
         System.out.println("Valor de la clase 3 objeto 1 char "+c1.e3);
         System.out.println("Valor de la clase 3 objeto 2 char "+c2.e3);
         System.out.println("Valor de la clase 3 objeto 3 char "+c3.e3);
+        //llamado a los metodos
+        //metodo int
+        System.out.println("llamado de los metodos clase 1 objeto 1 int "+a1.aa1());
+        System.out.println("llamado de los metodos clase 1 objeto 2 int "+a2.aa1());
+        System.out.println("llamado de los metodos clase 1 objeto 3 int "+a3.aa1());
+        System.out.println("llamado de los metodos clase 2 objeto 1 int "+b1.aa2());
+        System.out.println("llamado de los metodos clase 2 objeto 2 int "+b2.aa2());
+        System.out.println("llamado de los metodos clase 2 objeto 3 int "+b3.aa2());
+        System.out.println("llamado de los metodos clase 3 objeto 1 int "+c1.aa3());
+        System.out.println("llamado de los metodos clase 3 objeto 2 int "+c2.aa3());
+        System.out.println("llamado de los metodos clase 3 objeto 3 int "+c3.aa3());
+        System.out.println("-----------------------------------------------------");
+        //metodo String
+        System.out.println("llamado de los metodos clase 1 objeto 1 String "+a1.bb1());
+        System.out.println("llamado de los metodos clase 1 objeto 2 String "+a2.bb1());
+        System.out.println("llamado de los metodos clase 1 objeto 3 String "+a3.bb1());
+        System.out.println("llamado de los metodos clase 2 objeto 1 String "+b1.bb2());
+        System.out.println("llamado de los metodos clase 2 objeto 2 String "+b2.bb2());
+        System.out.println("llamado de los metodos clase 2 objeto 3 String "+b3.bb2());
+        System.out.println("llamado de los metodos clase 3 objeto 1 String "+c1.bb3());
+        System.out.println("llamado de los metodos clase 3 objeto 2 String "+c2.bb3());
+        System.out.println("llamado de los metodos clase 3 objeto 3 String "+c3.bb3());
+        System.out.println("--------------------------------------------------------");
+        //metodo void
+        a1.cc1();
+        a2.cc1();
+        a3.cc1();
+        b1.cc2();
+        b2.cc2();
+        b3.cc2();
+        c1.cc3();
+        c2.cc3();
+        c3.cc3();
+        System.out.println("--------------------------------------------------------");
+        //metodo float
+        System.out.println("llamado de los metodos clase 1 objeto 1 float "+a1.dd1());
+        System.out.println("llamado de los metodos clase 1 objeto 2 float "+a2.dd1());
+        System.out.println("llamado de los metodos clase 1 objeto 3 float "+a3.dd1());
+        System.out.println("llamado de los metodos clase 2 objeto 1 float "+b1.dd2());
+        System.out.println("llamado de los metodos clase 2 objeto 2 float "+b2.dd2());
+        System.out.println("llamado de los metodos clase 2 objeto 3 float "+b3.dd2());
+        System.out.println("llamado de los metodos clase 3 objeto 1 float "+c1.dd3());
+        System.out.println("llamado de los metodos clase 3 objeto 2 float "+c2.dd3());
+        System.out.println("llamado de los metodos clase 3 objeto 3 float "+c3.dd3());
+        System.out.println("--------------------------------------------------------");
+        //metodo double
+        System.out.println("llamado de los metodos clase 1 objeto 1 double "+a1.dd1());
+        System.out.println("llamado de los metodos clase 1 objeto 2 double "+a2.dd1());
+        System.out.println("llamado de los metodos clase 1 objeto 3 double "+a3.dd1());
+        System.out.println("llamado de los metodos clase 2 objeto 1 double "+b1.dd2());
+        System.out.println("llamado de los metodos clase 2 objeto 2 double "+b2.dd2());
+        System.out.println("llamado de los metodos clase 2 objeto 3 double "+b3.dd2());
+        System.out.println("llamado de los metodos clase 3 objeto 1 double "+c1.dd3());
+        System.out.println("llamado de los metodos clase 3 objeto 2 double "+c2.dd3());
+        System.out.println("llamado de los metodos clase 3 objeto 3 double "+c3.dd3());
+        System.out.println("--------------------------------------------------------");
+        //llamado de toString
+        System.out.println(a1.toString());
+        System.out.println(b1.toString());
+        System.out.println(c1.toString());
     }
     
 }

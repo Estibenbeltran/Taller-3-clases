@@ -5,19 +5,38 @@ public class Clase3 {
    public double c3 = 5;
    public float d3 = 0.5f;
    public char e3 = 6;    
-   int aa3(){
+   public int aa3(){
        return 8;
+       /**
+        * devuelve un valor int a la clase 1
+        */
    }
-   String bb3(){
+   public String bb3(){
        return "Esta funcionando";
+       /**
+        * devuelve un mensaje String a la clase 1
+        */
    }
-   void cc3(){
+   public void cc3(){
        System.out.println("Clase 1");
+       /**
+        * solo devuelve un mensaje void a la clase 1
+        */
    }
-   float dd3(){
+   public float dd3(){
        return 0.8f;
+       /**
+        * devuelve un valor float a la clase 1
+        */
    }
-   double ee3(){
+   public double ee3(){
     return 1000; 
+      /**
+        * devuelve un valor double a la clase 1
+        */
    }
+   @Override
+   public String toString(){
+       return "aqui se llama el metodo toString de la clase 3";
+   }   
 }
