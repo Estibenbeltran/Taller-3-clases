@@ -1,10 +1,10 @@
 package Clase2;
 public class Clase2 {
-   int a2 = 5;
-   String b2 = "Estiben Beltran clase 1";
-   double c2 = 5;
-   float d2 = 0.5f;
-   char e2 = 6;
+   public int a2 = 5;
+   public String b2 = "Estiben Beltran clase 2 usando String";
+   public double c2 = 5;
+   public float d2 = 0.5f;
+   public char e2 = 6;
    int aa2(){
        return 8;
    }

@@ -1,11 +1,11 @@
 package Clase1;
 public class Clase1 {  
-   int a1 = 5;
-   String b1 = "Estiben Beltran clase 1";
-   double c1 = 5;
-   float d1 = 0.5f;
-   char e1 = 6;
-   int aa1(){
+   public int a1 = 5;
+   public String b1 = "Estiben Beltran clase 1 usando String";
+   public double c1 = 5;
+   public float d1 = 0.5f;
+   public char e1 = 6;
+   public int aa1(){
        return 8;
    }
    String bb1(){
